@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic and Personal Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #i{
+            height: 550px;
+            width: 450px;
+            margin-top: 6%;
+margin-left: 30%;
+
+box-shadow: 0 0 30px #00abf0;
+        }
+    </style>
+
+
+</head>
+<body id="body2">
+    <header class="header">
+
+        <a href="#" class="logo">Ali</a>
+        <nav class="navbar">
+            
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="achieve.html">Accomplishments</a>
+            <a href="activities.html">Activities</a>
+            <a href="growth.html">Personal Growth</a>
+            <a href="career.html">Career Path</a>
+        </nav>
+
+    </header>
+
+    <main id="grow">
+
+
+
+        <img src="Fresh idea (1).png" alt="" height="600px" width="500px" id="imgg">
+
+
+        
+        <div class="accordion" style="width: 350px; margin-left: 50%; margin-top: 10%; box-shadow: 10px 10px 10px blanchedalmond;">
+            <h2 class="accordion-btn" onclick="toggleInfo()">My CV</h2>
+    
+            <div class="accordion-content">
+            <p>
+    
+                
+                <a href="https://docs.google.com/document/d/1RRKmVDmqUNV78kbDECh0kstod-zyLXxp/edit?usp=sharing&ouid=112763859953529068280&rtpof=true&sd=true" target="_blank">Click Me</a>
+            </p>
+    
+            </div>
+    
+        
+        </div>
+
+       <div>
+        <h1 style="margin-top: 40%;">Certificates</h1>
+        <img src="WhatsApp Image 2024-01-13 at 7.33.47 AM (1).jpeg" alt="" id="i"> <br>
+        <img src="WhatsApp Image 2024-01-13 at 7.33.47 AM.jpeg" alt="" id="i">
+       </div>
+
+    <script>
+        function toggleInfo() {
+            var accordionContent = this.nextElementSibling;
+            accordionContent.style.display = (accordionContent.style.display === 'block') ? 'none' : 'block';
+        }
+    
+        var accordionButtons = document.querySelectorAll('.accordion-btn');
+    
+        accordionButtons.forEach(function (button) {
+            button.addEventListener('click', toggleInfo);
+        });
+    </script>
+    
+                <script src="script.js"></script>
+
+    </main>
+
+        
+
+        
+</body>
+</html>

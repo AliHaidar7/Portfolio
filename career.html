@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic and Personal Growth</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        #i{
+            height: 550px;
+            width: 450px;
+            margin-top: 6%;
+margin-left: 30%;
+
+box-shadow: 0 0 30px #00abf0;
+        }
+    </style>
+
+
+</head>
+<body id="body2">
+    <header class="header">
+
+        <a href="#" class="logo">Ali</a>
+        <nav class="navbar">
+            
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutMe.html">About Me</a>
+            <a href="achieve.html">Accomplishments</a>
+            <a href="activities.html">Activities</a>
+            <a href="growth.html">Personal Growth</a>
+            <a href="career.html">Career Path</a>
+        </nav>
+
+    </header>
+
+    <main id="grow">
+
+
+
+        <img src="My first design 61.png" alt="" height="700px" width="600px" id="imgg" style="margin-left: -6%; margin-top: -15%;">
+
+
+        
+        <div class="accordion" style="width: 350px; margin-left: 50%; margin-top: 10%; box-shadow: 10px 10px 10px blanchedalmond;">
+            <h2 class="accordion-btn" onclick="toggleInfo()">Career Path</h2>
+    
+            <div style="  padding: 10px;
+            background-color:#00acf07a;">
+            <p>
+    
+                
+                <a href="https://docs.google.com/presentation/d/143BlIseQOQjC3rmNvhNpDYBP_2gL6Ec8/edit?usp=sharing&ouid=112763859953529068280&rtpof=true&sd=true" target="_blank" style=" color: white; text-decoration: none; margin-left: 40%;">Click Me</a>
+            </p>
+    
+            </div>
+    
+        
+        </div>
+
+        <div>
+            <p style="border: 2px solid #00abf0; box-shadow: 0 0 20px #00abf0 ; width: 800px; margin-left: 35%; padding: 10px; margin-top: 60px;">I've made the decision to become an ophthalmologist, and let me tell you, I couldn't be more excited about it! I've always had a strong passion for scientific inquiry and a deep desire to explore and understand medicine. Becoming an ophthalmologist allows me to combine these interests and make a real impact on people's lives. I'll have the opportunity to directly help individuals with their vision health, from diagnosing and treating eye conditions to performing surgeries and prescribing corrective measures. It's such a rewarding career path, and I can't wait to dive in and start making a difference! Plus, with the constant advancements in technology and research, I'll have the chance to contribute to innovative treatments and procedures. It's an ever-evolving field, and I'm thrilled to be a part of it. And hey, did you know that the demand for ophthalmologists is expected to grow? With an aging population and an increased prevalence of eye-related conditions, there's a real need for skilled professionals in this field. I'm excited to be able to address this growing need and provide quality eye care to those who need it. So, yeah, becoming an ophthalmologist is not just a career choice for me, it's a calling. And I can't wait to embark on this incredible journey!</p>
+        </div>
+
+      
+
+    <script>
+        function toggleInfo() {
+            var accordionContent = this.nextElementSibling;
+            accordionContent.style.display = (accordionContent.style.display === 'block') ? 'none' : 'block';
+        }
+    
+        var accordionButtons = document.querySelectorAll('.accordion-btn');
+    
+        accordionButtons.forEach(function (button) {
+            button.addEventListener('click', toggleInfo);
+        });
+    </script>
+    
+                <script src="script.js"></script>
+
+    </main>
+
+        
+
+        
+</body>
+</html>
